@@ -140,7 +140,8 @@ _PROPERTIES = dict(brightness = FC2_BRIGHTNESS,
                    gamma = FC2_GAMMA,
                    shutter = FC2_SHUTTER,
                    gain = FC2_GAIN,
-                   white_balance = FC2_WHITE_BALANCE)
+                   white_balance = FC2_WHITE_BALANCE,
+                   frame_rate = FC2_FRAME_RATE)
 
 def library_version():
     """returns the version of the underlying FlyCapture2 library
